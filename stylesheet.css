@@ -1,0 +1,175 @@
+*{
+  padding: 0 0;
+  margin: 0 0;
+}
+
+body{
+  background-color:#e8e8ee;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  background-color: white;
+  z-index: 1;
+}
+
+.navbar ul li{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  font-family: Arial;
+  color: rgba(0,0,0,0.5);
+}
+
+.leftbuttons{
+  float:left;
+  position:relative;
+  left:20px;
+  top:10px;
+}
+
+form{
+  float:left;
+  position:absolute;
+  left:200px;
+  top:13px;
+}
+
+#textbox{
+  position: relative;
+  float : left;
+  width:400px;
+  height: 28px;
+}
+
+.searchicon{
+  position:absolute;
+  left:400px;
+
+}
+
+.rightbuttons{
+  text-align: right;
+  padding-left: 720px;
+  padding-top: 13px;
+  margin-right:10px;
+  white-space:nowrap;
+}
+
+
+
+/* FOOTER */
+.footer{
+  position: absolute;
+  top: 2000px;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.content{
+  position: relative;
+  margin: 10px auto;
+  top: 100px;
+  width: 1050px;
+  height: 1800px;
+  padding: 10px 10px;
+}
+
+/* SIDEBAR */
+.sidebar{
+  position: absolute;
+  top:10px;
+  right:10px;
+  width: 370px;
+  height: 1750px;
+  background-color: white;
+}
+
+.sidebar ul li{
+  vertical-align: middle;
+  font-size: 13px;
+  font-family: Arial;
+  
+}
+.preview{
+  margin-top:10px;
+  position:relative;
+  width: 360px;
+  height: 80px;
+  top: 10px;
+  left: 10px;
+}
+.thumbnail{
+  width: 120px;
+  height: 70px;
+  position:relative;
+  float: left;
+}
+.thumbnaildescription{
+  width: 230px;
+  height: 70px;
+  position:relative;
+  left:10px;
+  float:left;
+  color: rgba(0,0,0,0.5);
+}
+.thumbnaildescription h4{
+  color: black;
+}
+.sidebarheader{
+  margin-top:10px;
+  margin-left:10px;
+  font-size:13px;
+  font-weight:bold;
+  font-family: Roboto,arial,sans-serif;
+}
+
+
+
+/* CONTENT */
+.player{
+  float: left;
+  width: 640px;
+  height: 360px;
+}
+
+.description{
+  clear: left;
+  float: left;
+  margin-top:10px;
+  width: 640px;
+  height: 155px;
+}
+
+
+.info{
+  clear: left;
+  float: left;
+  margin-top:10px;
+  width: 640px;
+  height: 132px;
+}
+
+.comments{
+  clear: left;
+  float: left;
+  margin-top:10px;
+  width: 640px;
+  height: 132px;
+}
+
+
